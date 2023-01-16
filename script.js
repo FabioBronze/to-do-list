@@ -12,7 +12,7 @@ function addTask() {
     const newTask = template.cloneNode(true); // Retorna um clone do elemento para o qual foi invocado.
 
     // Adiciona título
-    newTask.querySelector("#task-title").textContent = taskTitle;
+    newTask.querySelector(".task-title").textContent = taskTitle;
 
     // Remover as classes desnecessárias
     newTask.classList.remove("template");
