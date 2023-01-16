@@ -50,7 +50,7 @@ function removeTask(task) {
 
 // Função de completar tarefa
 function completeTask(task) {
-  const taskComplete = task.parentNode
+  const taskComplete = task.parentNode // // Acessa o elemento pai (li)
   taskComplete.classList.toggle("done") // Se estiver com o done ele tira, se não estiver ele coloca, verifica se o elemento tem a classe ou não (substitui o if else)
 }
 
