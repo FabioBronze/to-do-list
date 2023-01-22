@@ -54,7 +54,7 @@ function completeTask(task) {
   taskComplete.classList.toggle("done") // Se estiver com o done ele tira, se não estiver ele coloca, verifica se o elemento tem a classe ou não (substitui o if else)
 }
 
-// Evento de adicionar tarega
+// Evento de adicionar tarefa
 const addBtn = document.querySelector("#add-btn");
 addBtn.addEventListener("click", function (e) {
   e.preventDefault(); // Impede que o evento padrão ocorra - adiciona o form aqui no front-end e não no servidor
